@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./icons/all.min.css" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>weather</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex gap-3">
+            <img src="./imgs/logo.png" alt="" class="w-100" />
+            <div>
+              <h1 class="fs-6 fw-bold m-0">Weather</h1>
+              <p class="pt-1 m-0" style="font-size: 10px">tagline goes here</p>
+            </div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+            <li id="main" class="nav-item">
+              <a class="text-white text-decoration-none py-1 px-4" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="text-white text-decoration-none py-1 px-4" href="#"
+                >News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="text-white text-decoration-none py-1 px-4" href="#"
+                >Live Cameras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="text-white text-decoration-none py-1 px-4" href="#"
+                >Photos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="text-white text-decoration-none py-1 px-4" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="container py-5">
+        <div class="input-group my-3">
+          <input
+            id="typingcityName"
+            type="text"
+            class="form-control p-3 rounded-pill"
+            placeholder="Find your location..."
+          />
+          <button
+            class="btn btn-primary text-white px-5 rounded-pill ms-3"
+            type="button"
+            id="button-addon2"
+          >
+            Find
+          </button>
+        </div>
+        <div id="weatherShow" class="row mt-5">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control p-2 rounded-pill"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button
+                class="btn btn-primary text-white px-5 rounded-pill ms-3"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="accounts-icons d-flex justify-content-center gap-1">
+              <div class="social-icon rounded-circle">
+                <a>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
+              <div class="social-icon rounded-circle">
+                <a>
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-icon rounded-circle">
+                <a>
+                  <i class="fa-brands fa-google-plus"></i>
+                </a>
+              </div>
+              <div class="social-icon rounded-circle">
+                <a>
+                  <i class="fa-brands fa-pinterest"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-white-50 my-3">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </section>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
